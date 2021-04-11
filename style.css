@@ -1,0 +1,205 @@
+body{
+    background: url(./images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Header Section*/
+.header_section{
+    height: 100vh; 
+    position: relative;  
+}
+.header_section_profile_image{
+position: absolute;
+height: 350px;
+border-radius: 50%;
+left: calc(50% - 175px);
+}
+.header_section h1{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center ;
+    top: 370px;
+    font-size: 40px;
+
+}
+.header_section h2{
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center ;
+    top: 435px;
+    padding-left: 5px;
+}
+.header_section_down_arrow{
+    cursor: pointer;
+position: absolute;
+height: 100%;
+bottom: 40px;
+left: calc(50% - 50px);
+}
+.header_section_logo{
+    position: absolute;
+    top: 455px;
+    left: calc(50% - 130px);
+}
+
+/*about Section*/
+.about_section{
+    height: 100vh;
+    position: relative;
+ }
+ .about_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+ }
+ .about_section h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+}
+.about_section p{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    padding: 7%;
+    box-sizing: border-box;
+}
+.about_section a{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 415px;
+    width: 310px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid white;
+    padding: 15px 10px;
+    border-radius: 7px;
+    left: calc(50% - 170px);
+}
+.about_section a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+ .about_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+}
+
+/*Education Section*/
+.education_section{
+    height: 100vh;
+    position: relative;
+ }
+ .education_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+.education_section h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+}
+.education_section table{
+    color: white;
+    position: absolute;
+    top: 280px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    left: 18rem;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    padding-left: 50%;
+    border-style: double;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.education_section td, th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px 5px;
+}
+.education_section_down_arrow{
+    cursor: pointer;
+    position: absolute;
+    height: 100px;
+    bottom: 10px;
+    left: calc(50% - 50px);
+}
+
+/*Header Section*/
+.contact_section{
+    height: 100vh;
+    position: relative;
+}
+.contact_section_up_arrow{
+    cursor: pointer;
+    transform: rotate(180deg);
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: calc(50% - 50px);  
+}
+.contact_section h1{
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 120px;
+    font-size: 45px;
+}
+.contact_section_facebook{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 250px);
+    top: 300px;
+}
+.contact_section_mail{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 120px);
+    top: 300px;
+}
+.contact_section_linkedin{
+    position: absolute;
+    width: 100px;
+    left: calc(50% + 20px);
+    top: 300px;
+}
+.contact_section_instagram{
+    position: absolute;
+    width: 100px;
+    left: calc(50% + 150px);
+    top: 300px;
+}

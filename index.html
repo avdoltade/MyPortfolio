@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header class="header_section">
+        <img src="./images/Abhi.jpg" alt="" class="header_section_profile_image">
+        <h1>Abhishek Doltade</h1>
+        <h2>Android Devloper</h2>
+        <img src="./images/android.png" alt="" style="height: 30px; width: 30px;" class="header_section_logo">
+        <img src="images/down arrow.gif" alt="" class="header_section_down_arrow" style="height: 100px; width: 100px;" id="header_section_down_arrow" onclick="moveToSection(this.id)">
+    </header>
+    <main class="about_section">
+        <img src="./images/down arrow.gif" alt="up_arrow" class="about_section_up_arrow" id="about_section_up_arrow" onclick="moveToSection(this.id)">>
+        <h1 class="about_section_heading">About<hr width="50" style="padding-top: 0.0rem; border-radius: 10rem; width: 4rem;"></h1>
+    
+        <p class="about_section_info">A passionate individual who loves building android applications, i would like to update technical stuffs
+         I'm working on small basic projects on android application Frontend and backend both platform. The moto of my life is to pursue a job apportunity in a competitive environment that will challenge me to push my boundaries and expand my knowlegde in the field of computer science.
+        </p>
+        <a href="./images/Abhishek Doltade Resume.pdf" target="_blank"><img src="./images/folder.png" alt="" style="height: 35px; width: 35px; padding-right: 10px;">My Resume</a>
+        <img src="./images/down arrow.gif" alt="down_arrow" class="about_section_down_arrow" >
+    </main>
+    <section class="education_section" style="padding-left: 10px;">
+        <img src="./images/down arrow.gif" alt="up_arrow" class="education_section_up_arrow" id="education_section_up_arrow" onclick="moveToSection(this.id)">
+        <h1>Education<hr width="50" style="padding-top: 0.0rem; border-radius: 10rem;width: 4rem;"></h1>
+        <table class="center">
+            <tr>
+                <th>Course</th>
+                <th>School/University</th>
+                <th>Year of passing</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td style="padding: 10px 5px;">School</td>
+                <td>Secondary School Certificate (SSC)</td>
+                <td>2017</td>
+                <td>67.87%</td>
+            </tr>
+            <tr>
+                <td>Diploma in Computer Engineering</td>
+                <td>Sandip polytechnic, Nashik</td>
+                <td>2020</td>
+                <td>87.94%</td>
+            </tr>
+            <tr>
+                <td>Direct Second Engineering</td>
+                <td>Sandip Insititute of Technology</td>
+                <td>Pursing</td>
+                <td>-</td>
+            </tr>
+        </table>
+        <img src="./images/down arrow.gif" alt="down_arrow" class="education_section_down_arrow" id="education_section_down_arrow" onclick="moveToSection(this.id)">
+    </section>
+    <footer class="contact_section">
+        <img src="./images/down arrow.gif" alt="up_arrow" class="contact_section_up_arrow" id="contact_section_up_arrow" onclick="moveToSection(this.id)">
+        <h1>Get in touch<hr width="50" style="padding-top: 0.0rem; border-radius: 10rem;width: 4rem;"></h1>
+        <a href="https://www.facebook.com/abhishek.doltade.3/" target="_blank">
+            <img src="./images/facebook.png" alt="" class="contact_section_facebook" style="height: 50px; width: 50px;"></a>
+        <a href="mailto:abhidoltade11@gmail.com" target="_blank">
+            <img src="./images/gmail.png" alt="" class="contact_section_mail" style="height: 50px; width: 50px;"></a>
+        <a href="https://www.linkedin.com/in/abhishek-doltade-a898851a3/" target="_blank">
+            <img src="./images/linkedin.png" alt="" class="contact_section_linkedin" style="height: 50px; width: 50px;"></a>
+        <a href="https://www.instagram.com/avdoltade.11/" target="_blank">
+            <img src="./images/instagram.png" alt="" class="contact_section_instagram" style="height: 50px; width: 50px;"></a>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
